@@ -13,7 +13,7 @@ function handleRequest(request, response) {
     
     if (request.method === 'POST') {
         response.writeHead(200, {"test": "test1"});
-        response.end('Are you using post method?\n');
+        response.end('Are you using omg post method?\n');
     } else {
 
         response.writeHead(200, {"test": "test2"});
