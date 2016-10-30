@@ -22,10 +22,8 @@ function handleRequest(request, response) {
     
 }
 
-function handleGetReq () {}
-
 var server = http.createServer(handleRequest);
 
-server.listen(PORT, function () {
+server.listen(process.env.PORT || PORT, function () {
     console.log('it is listening for requests...');
 });
