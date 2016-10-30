@@ -17,7 +17,7 @@ function handleRequest(request, response) {
     } else {
 
         response.writeHead(200, {"test": "test2"});
-        response.end('It Works!! Path Hit: ' + request.url + '\n');
+        response.end('It Works!! OMG!! Path Hit: ' + request.url + '\n');
     }
     
 }
